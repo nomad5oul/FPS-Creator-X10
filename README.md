@@ -1,5 +1,4 @@
 # FPS-Creator-X10
-Source code and IDE for FPS Creator X10
 
 To compile the X10 executables
 ==============================
