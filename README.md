@@ -1,4 +1,4 @@
-# FPS-Creator-X10
+# FPS Creator X10
 
 To compile the X10 executables
 ==============================
