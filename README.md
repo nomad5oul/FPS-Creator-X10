@@ -40,4 +40,6 @@ Cannot find Dark Basic Pro
 NOTE: When you first launch the CODESURGE editor, it may ask you to locate where Dark Basic Pro is installed. If prompted, direct the dialog to point to the 'Dark Basic Pro' folder inside the respective parent folder (if you ran the editor from Dark Basic DX10, chose Dark Basic DX10\Dark Basic Pro).
 
 License
+--------------------------
+
 This source code does not use any open source license, and is provided to allow users to compile and run the software for their own personal use. This source code shall not be used for commercial purposes, and you are not permitted to sell this software. You are, however, allowed to sell the games you make with FPS Creator.
