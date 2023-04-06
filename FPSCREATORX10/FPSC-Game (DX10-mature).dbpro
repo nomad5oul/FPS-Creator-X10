@@ -1,0 +1,133 @@
+; **** Dark BASIC Professional Project File ****
+; **** Written by Synergy Editor ****
+version=DBP1.00
+project name=FPSC-Game
+
+; **** source file information ****
+main=FPSCREATOR.dba
+LineMain=2795
+include1=FPSC-Game\FPSC-GameMain.dba
+LineInclude1=375
+include2=FPSC-Game\FPSC-Game.dba
+LineInclude2=0
+include3=FPSC-Segments\FPSC-Segments.dba
+LineInclude3=0
+include4=FPSC-Debug\FPSC-Debug.dba
+LineInclude4=0
+include5=FPSC-Entities\FPSC-Entities.dba
+LineInclude5=20
+include6=FPSC-AI\FPSC-AI.dba
+LineInclude6=2612
+include7=FPSC-Common\FPSC-Common.dba
+LineInclude7=0
+include8=FPSC-Player\FPSC-Player.dba
+LineInclude8=0
+include9=FPSC-Player\FPSC-Gun.dba
+LineInclude9=0
+include10=FPSC-Waypoints\FPSC-Waypoints.dba
+LineInclude10=0
+include11=FPSC-Common\FPSC-ExeLink.dba
+LineInclude11=0
+include12=FPSC-Flak\FPSC-Flak.dba
+LineInclude12=12
+include13=FPSC-Flak\FPSC-Decal.dba
+LineInclude13=0
+include14=FPSC-Player\FPSC-GunForEntity.dba
+LineInclude14=0
+include15=FPSC-Game\FPSC-Lighting.dba
+LineInclude15=0
+include16=FPSC-Entities\FPSC-EntitiesCore.dba
+LineInclude16=0
+include17=FPSC-MapEditor\FPSC-MapFile.dba
+LineInclude17=0
+include18=FPSC-Screens\FPSC-GameFlow.dba
+LineInclude18=0
+include19=FPSC-Screens\FPSC-Screens.dba
+LineInclude19=0
+include20=FPSC-Game\FPSC-Universe.dba
+LineInclude20=19
+include21=FPSC-Entities\FPSC-EntitiesAI.dba
+LineInclude21=2
+include22=FPSC-AI\FPSC-AIHUD.dba
+LineInclude22=455
+include23=FPSC-Versions\FPSC-Full.dba
+LineInclude23=2
+include24=FPSC-Particles\FPSC-Particles.dba
+LineInclude24=0
+include25=FPSC-Multiplayer\FPSC-Multiplayer.dba
+LineInclude25=4
+include26=FPSC-Screens\FPSC-SaveLoad.dba
+LineInclude26=423
+include27=FPSC-AI\FPSC-AISS.dba
+LineInclude27=8
+include28=FPSC-Entities\FPSC-EntitiesData.dba
+LineInclude28=7
+include29=FPSC-AI\FPSC-OBS.dba
+LineInclude29=0
+include30=FPSC-AgeRatings\FPSC-MATURE.dba
+LineInclude30=0
+include31=FPSC-Physics\FPSC-Physics.dba
+LineInclude31=0
+include32=FPSC-Physics\FPSC-NOPHYSX.dba
+LineInclude32=36
+
+; **** Executable Information  ***
+; build types: exe, media, installer, alone
+executable=FPSC-Game.exe
+build type=exe
+; ** Media file compression **
+compression=NO
+
+; ** Media file encryption **
+encryption=NO
+; ** Display the card options screen window? **
+card options window=NO
+
+; **** debugger information ****
+; If the editor sets this to yes, it is running in debug mode
+CLI=NO
+CommandLineArguments=
+
+; **** display mode information ****
+app title=FPSC Game
+
+; graphics mode options: fullscreen, window, desktop, fulldesktop, hidden
+graphics mode=hidden
+fullscreen resolution=800x600x32
+
+; arbitrary sizes are valid for windowed mode
+window resolution=800x600
+
+; **** External Files Information ****
+
+; **** Media ****
+; Example entries: media1=graphics\*.jpg
+media root path=C:\Users\s4real\Documents\X10\FPSCREATORX10\
+
+; **** Icons ****
+icon1=iconX10.ico
+
+; **** Cursors ****
+
+; **** Version Info ****
+VerComments=
+VerCompany=
+VerFileDesc=
+VerFileNumber=v1.0
+VerInternal=v1.0
+VerCopyright=
+VerTrademark=
+VerFilename=
+VerProduct=
+VerProductNumber=v1.0
+
+; **** To Do ****
+
+; **** Comments ****
+comments1=
+
+; **** Advanced (setup.ini) configuration ****
+RemoveSafetyCode=NO
+SafeArrays=YES
+LocalTempFolder=NO
+ExternaliseDLLS=NO

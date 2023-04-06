@@ -1,0 +1,14 @@
+PARSER ERROR
+------------
+Could not understand command at line 3243.
+
+PROGRAM TRACE
+-------------
+AI Update
+ gameperfai=gameperfai+(perftimer()-gameperftimestamp
+
+ERROR TRACE
+-----------
+Failed to 'DoBlock(0)'
+Failed to 'MakeStatements'
+Failed to Parse Program (MakeDBM->MakeProgram)'

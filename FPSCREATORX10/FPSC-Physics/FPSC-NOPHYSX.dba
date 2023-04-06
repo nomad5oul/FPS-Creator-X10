@@ -1,0 +1,78 @@
+_phy_init:
+_phy_update:
+_phy_close:
+_phy_collisionmessages_eat:
+_phy_universe:
+_phy_pseudostaticentity:
+_phy_characterentity:
+_phy_dynamicentity:
+_phy_rotateentity:
+_phy_removeentity:
+_phy_dynamicvelocity:
+_phy_nudgeentity:
+_phy_nudgeentityup:
+_phy_gravityentityoff:
+_phy_gravityentityon:
+_phy_getentityvelocity:
+_phy_setentityvelocity:
+_phy_applyentityforce:
+_phy_entitydrivenphysics:
+_phy_entitydrivenstaticphysics:
+_phy_getcollisionmessage:
+_phy_getvelocitya:
+_phy_getvelocityb:
+_phy_plr_make:
+_phy_plr_move:
+_phy_plr_jump:
+_phy_plr_stop:
+_phy_plr_delete:
+_phy_plr_getmotion:
+_phy_plr_gravityon:
+_phy_plr_gravityoff:
+_phy_plr_pickup:
+_phy_plr_carry:
+_phy_plr_dropvelocity:
+_phy_plr_dropmass:
+return
+
+function makecompass()
+
+if sprite exist(compassobject)=1
+   delete sprite compassobject
+endif
+if sprite exist(needleobject)=1
+   delete sprite needleobject
+endif
+if image exist(compassobject)=1
+   delete image compassobject
+endif
+if image exist(needleobject)=1
+   delete image needleobject
+endif
+if image exist(compassobject) = 0
+   set image colorkey 0,0,0
+
+   load image "databank\compass.png",compassobject
+
+endif
+if image exist(needleobject) = 0
+   set image colorkey 0,0,0
+   load image "databank\needle.png",needleobject
+
+endif
+if sprite exist(compassobject)=0
+   sprite compassobject,-10000,-10000,compassobject
+   offset sprite compassobject,sprite width(compassobject)/2,sprite height(compassobject)/2
+   set sprite compassobject,1,1
+
+   hide sprite compassobject
+endif
+if sprite exist(needleobject)=0
+   sprite needleobject,-10000,-10000,needleobject
+   offset sprite needleobject,sprite width(needleobject)/2,sprite height(needleobject)/2
+   set sprite needleobject,1,1
+
+   hide sprite needleobject
+endif
+
+endfunction
